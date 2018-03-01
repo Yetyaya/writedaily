@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap4 + skrollr 製作捲動式網頁</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+
+<body>  
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top navbar-top">
+  <div class="container">
+    <div class="nav-header"><a href="#" class="navbar-brand home">寫字日常</a></div>
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="nav navbar-nav">
+        <li class="nav-item active"><a href="#asking" class="nav-link tag1">引言</a></li>
+        <li class="nav-item active"><a href="#recommend" class="nav-link tag2">書籍推薦</a></li>
+        <li class="nav-item active"><a href="#tools" class="nav-link tag3">書寫工具</a></li>
+        <li class="nav-item active"><a href="#words" class="nav-link tag4">字帖欣賞</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header class="jumbotron">
+  <div class="container">
+    <h1 data-0="transform: translateY(0px)" data-100="transform: translateY(-20px)" class="display-3 font-weight-bold">寫字日常，靜心戀字</h1>
+    <hr/>
+    <h4 data-0="opacity: 1" data-350="opacity: 0">習慣在紙上沉思，習慣用寫字啟動一天的開始</h4>
+  </div>
+</header>
+<section id="asking">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-12 ask_pic">
+        <div data-100="transform: translateX(-100px)" data-500="transform: translateX(0px)" class="img"></div>
+      </div>
+      <div class="col-md-7 col-sm-12 ask_content">
+        <h2 data-100="transform: translateX(100px)" data-500="transform: translateX(0px)" class="font-weight-bold">總是羨慕他人寫得一手好字？ </h2>
+        <h4 data-100="transform: translateX(100px)" data-500="transform: translateX(0px)">讓兩大名師帶您養成寫字好習慣。只要21天，讓您從寫字苦手進化到美字高手！</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="recommend">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 data-bottom-top="opacity: 0;transform: translateY(-50px)" data-center="opacity: 1;transform: translateY(0px)" class="font-weight-bold">書籍推薦</h2>
+        <hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="rec">
+          <div data-bottom-top="opacity: 0;transform: translateY(-50px)" data-center="opacity: 1;transform: translateY(0px)" class="img1"></div>
+        </div>
+        <h4 class="font-weight-bold">21天美字計畫</h4>
+        <hr/>
+        <p>專家說，持續21天做某一件事，就能讓大腦養成習慣，內化成未來的行為。<br>這份計畫以21天為期，學習九段名師之長，以鋼筆字冠軍的運筆路數為底。除了練出漂亮的美字之外，更多了生活的溫度。加上現代人心靈導師阿德勒的勇氣與智慧金句，讓這21天的寫字計畫更加充實與美好。<br>無論你選擇的是侯信永老師勁直勇健的楷書，或是葉曄老師清麗秀美的行書，這本書都能為愛寫字的人重溫寫字的初衷，為即將愛上寫字的人找到寫字的快樂。</p>
+      </div>
+      <div class="col-md-4">
+        <div class="rec">
+          <div data-bottom-top="opacity: 0;transform: translateY(-50px)" data-center="opacity: 1;transform: translateY(0px)" class="img2"></div>
+        </div>
+        <h4 class="font-weight-bold">寫字的日常</h4>
+        <hr/>
+        <p>本書精選了十個想要提筆寫字的日常時刻，幫助讀者在寫出美字前有可依循的練習參考。借由一句動人的話傳遞積極正面的能量，時時刻刻體會寫字的力量。在這個數字時代里，手寫寄語彌足珍貴，也更令人感動。重拾手寫情懷，用我手寫我心。<br>把思念、祝福、愛慕……種種情感都用筆寫下來吧，送給你愛的人。日常的溫馨與浪漫，要用書寫的方式去呈現與表達。讓書寫，為你的生活增添小樂趣與小情趣，享受寫字的美好時光。</p>
+      </div>
+      <div class="col-md-4">
+        <div class="rec">
+          <div data-bottom-top="opacity: 0;transform: translateY(-50px)" data-center="opacity: 1;transform: translateY(0px)" class="img3"></div>
+        </div>
+        <h4 class="font-weight-bold">美字練習日：靜心寫好字</h4>
+        <hr/>
+        <p>寫好字可以是一個人的事，但是，當你發現寫出來的字句可以感動、激勵人時，你會知道……寫字是一件非常愉快的事。<br>作者獨創「鷹架式習字法」，讓你輕鬆入門，練結構、練筆法、練手法，還可已從中認識真正的自己。<br>全書以中文硬筆字書寫為主，透過鋼筆字冠軍老師的正確指導，進而學得習字技巧。本書最大單元「鋼筆字冠軍的名言帖169」，讓您用169天「靜心．寫好字」。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="tools">
+  <div class="container-fluid">
+    <div class="row">
+      <div data-bottom-top="background-position: 0% 0%" data-center="background-position: 60% 50%" class="col-md-5 col-sm-12"></div>
+      <div class="col-md-7 col-sm-12">
+        <div class="col-md-12">
+          <h2 class="font-weight-bold">硬筆種類</h2>
+          <hr/>
+        </div>
+        <div class="col-md-12 penbox">
+          <div class="col-md-6 pen"><img src="img/icon1.png" alt=""/>
+            <h5 class="font-weight-bold">鋼筆</h5>
+            <p>一種利用重力和毛細現象將墨水引流到紙面產生筆跡的書寫工具，正常情況下，筆尖只要輕觸紙面即可書寫，十分省力，有利於長時間的練字。</p>
+          </div>
+          <div class="col-md-6 pen"><img src="img/icon2.png" alt=""/>
+            <h5 class="font-weight-bold">中性筆</h5>
+            <p>油性原子筆改良後的產品，滑順度更佳，比起油性墨料，書寫時手不須特別加壓筆跡就很清晰。更換筆芯便利，是原子筆中墨色最鮮亮、色彩變化最為豐富的。</p>
+          </div>
+          <div class="col-md-6 pen"><img src="img/icon3.png" alt=""/>
+            <h5 class="font-weight-bold">原子筆</h5>
+            <p>是公認練字最難的筆款。一來是油性墨，滑溜且不好出墨。二來是容易產生一坨一坨的墨漬。但若控筆的好，能產生最立體、凹凸感最強烈的筆觸。</p>
+          </div>
+          <div class="col-md-6 pen"><img src="img/icon4.png" alt=""/>
+            <h5 class="font-weight-bold">鉛筆</h5>
+            <p>鉛筆書寫硬筆字的效果獨樹一格，不少練習者常選用鉛筆作為書寫工具，比起HB，建議選擇軟硬度介於2B ～ 4B，更能夠輕鬆而流暢的書寫。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="words">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 justify-content-start">
+        <h2 class="font-weight-bold">字帖欣賞</h2>
+        <hr/>
+      </div>
+    </div>
+    <div class="row justify-content-start">
+      <div class="col-md-6 col-sm-12"><a href="img/word1.jpg" data-lightbox="image-all" data-title="by 葉曄">
+          <div data-bottom-top="filter: grayscale(100%)" data-center="filter: grayscale(0%)" class="pic1"></div></a></div>
+      <div class="col-md-6 col-sm-12"><a href="img/word2.jpg" data-lightbox="image-all" data-title="by 葉曄">
+          <div data-bottom-top="filter: grayscale(100%)" data-center="filter: grayscale(0%)" class="pic2"></div></a></div>
+      <div class="col-md-6 col-sm-12"><a href="img/word3.jpg" data-lightbox="image-all" data-title="by 韓玉青">
+          <div data-bottom-top="filter: grayscale(100%)" data-center="filter: grayscale(0%)" class="pic3"></div></a></div>
+      <div class="col-md-6 col-sm-12"><a href="img/word4.jpg" data-lightbox="image-all" data-title="by 韓玉青">
+          <div data-bottom-top="filter: grayscale(100%)" data-center="filter: grayscale(0%)" class="pic4"></div></a></div>
+      <div class="col-md-6 col-sm-12"><a href="img/word5.jpg" data-lightbox="image-all" data-title="by 侯信永">
+          <div data-bottom-top="filter: grayscale(100%)" data-center="filter: grayscale(0%)" class="pic5"></div></a></div>
+    </div>
+  </div>
+</section>
+<footer class="jumbotron">
+  <div class="container">
+    <h2 class="font-weight-bold">想知道更多寫字相關的文章嗎?</h2>
+    <hr/>
+    <input placeholder="Email" class="form-control"/>
+    <button class="btn btn-light">訂閱文章</button>
+  </div>
+</footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/skrollr/0.6.30/skrollr.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
